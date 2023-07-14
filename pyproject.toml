@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "goit-python11-web-module-hw12"
+version = "0.1.0"
+description = ""
+authors = ["dzvenyslavavovk <dzvinavovk.25@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_python11_web_module_hw12"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.100.0"
+uvicorn = {extras = ["standard"], version = "^0.22.0"}
+sqlalchemy = "^2.0.18"
+alembic = "^1.11.1"
+psycopg2-binary = "^2.9.6"
+pydentic = "^0.0.1.dev3"
+passlib = "^1.7.4"
+python-jose = "^3.3.0"
+libgravatar = "^1.0.4"
+python-multipart = "^0.0.6"
+pydantic = {extras = ["email"], version = "^2.0.3"}
+bcrypt = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
